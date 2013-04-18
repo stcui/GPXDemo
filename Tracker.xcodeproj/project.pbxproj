@@ -19,6 +19,8 @@
 		A011B8E0171FCBA7002116F5 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A011B8DF171FCBA7002116F5 /* SCViewController.m */; };
 		A011B8E3171FCBA7002116F5 /* SCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A011B8E1171FCBA7002116F5 /* SCViewController_iPhone.xib */; };
 		A011B8E6171FCBA7002116F5 /* SCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A011B8E4171FCBA7002116F5 /* SCViewController_iPad.xib */; };
+		A011B8EE171FCBEA002116F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A011B8ED171FCBEA002116F5 /* MapKit.framework */; };
+		A011B8F0171FCC26002116F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A011B8EF171FCC26002116F5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		A011B8DF171FCBA7002116F5 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
 		A011B8E2171FCBA7002116F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCViewController_iPhone.xib; sourceTree = "<group>"; };
 		A011B8E5171FCBA7002116F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCViewController_iPad.xib; sourceTree = "<group>"; };
+		A011B8EC171FCBCB002116F5 /* 走你.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "走你.gpx"; sourceTree = "<group>"; };
+		A011B8ED171FCBEA002116F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A011B8EF171FCC26002116F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A011B8F0171FCC26002116F5 /* CoreLocation.framework in Frameworks */,
+				A011B8EE171FCBEA002116F5 /* MapKit.framework in Frameworks */,
 				A011B8C7171FCBA7002116F5 /* UIKit.framework in Frameworks */,
 				A011B8C9171FCBA7002116F5 /* Foundation.framework in Frameworks */,
 				A011B8CB171FCBA7002116F5 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +82,7 @@
 		A011B8C5171FCBA7002116F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A011B8ED171FCBEA002116F5 /* MapKit.framework */,
 				A011B8C6171FCBA7002116F5 /* UIKit.framework */,
 				A011B8C8171FCBA7002116F5 /* Foundation.framework */,
 				A011B8CA171FCBA7002116F5 /* CoreGraphics.framework */,
@@ -91,6 +99,7 @@
 				A011B8DF171FCBA7002116F5 /* SCViewController.m */,
 				A011B8E1171FCBA7002116F5 /* SCViewController_iPhone.xib */,
 				A011B8E4171FCBA7002116F5 /* SCViewController_iPad.xib */,
+				A011B8EF171FCC26002116F5 /* CoreLocation.framework */,
 				A011B8CD171FCBA7002116F5 /* Supporting Files */,
 			);
 			path = Tracker;
@@ -99,6 +108,7 @@
 		A011B8CD171FCBA7002116F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A011B8EC171FCBCB002116F5 /* 走你.gpx */,
 				A011B8CE171FCBA7002116F5 /* Tracker-Info.plist */,
 				A011B8CF171FCBA7002116F5 /* InfoPlist.strings */,
 				A011B8D2171FCBA7002116F5 /* main.m */,
